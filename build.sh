@@ -1,4 +1,4 @@
 set -e
 
 cd src/
-hugo -d ../
+hugo -d ../docs/
