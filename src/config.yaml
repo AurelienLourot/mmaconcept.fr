@@ -1,0 +1,143 @@
+baseURL: http://something-fresh.org/
+languageCode: en-us
+title: Hugo Fresh Theme
+theme: hugo-fresh
+
+params:
+  font:
+    name: "Open Sans"
+    sizes: [400,600]
+  hero:
+    title: MMA Concept
+    subtitle: MMA Concept a vu le jour en 2007 en Haute-Marne et bénéficie des quarante ans d'expérience de son gérant Louis Lourot.
+    buttontext: Contact
+    buttonlink: "#"
+    image: logos/mmaconcept.png
+    # Footer logos (from /images/logos/clients/___.svg)
+    #clientlogos:
+    #- systek
+    #- tribe
+    #- kromo
+    #- infinite
+    #- gutwork
+  # Customizable navbar. For a dropdown, add a "sublinks" list.
+  navbar:
+  - title: Accueil
+    url: /
+  - title: Nos réalisations
+    sublinks:
+    - title: Mobilier
+      url: /
+    - title: Menuiserie
+      url: /
+    - title: Agencement
+      url: /
+    - title: Conception
+      url: /
+  - title: Contact
+    url: /
+    button: true
+  section1:
+    title: Domaines d'activité
+    subtitle: Tout ce qui peut être réalisé avec un morceau de bois
+    tiles:
+    - title: Mobilier
+      icon: armchair
+      text: Sièges et meubles de style ou contemporain
+      url: /
+      buttonText: Galerie
+    - title: Menuiserie
+      icon: door
+      text: Escalier, porte d'entrée, fenêtres, etc... sur mesure
+      url: /
+      buttonText: Galerie
+    - title: Agencement
+      icon: shower
+      text: Dressing, cuisine, portes coulissantes, aménagements divers
+      url: /
+      buttonText: Galerie
+    - title: Conception
+      icon: lamp
+      text: Plans, mise au point d’après croquis ou photos
+      url: /
+      buttonText: Galerie
+  section2:
+    title: You're here because you want the best
+    subtitle: And we know it
+    features:
+    - title: Powerful and unified interface
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+      # Icon (from /images/illustrations/icons/___.svg)
+      icon: laptop-globe
+    - title: Cross-device synchronisation
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+      icon: doc-sync
+    - title: Nomad system
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+      icon: mobile-feed
+  section3:
+    title: One platform
+    subtitle: To rule them all
+    image: illustrations/mockups/app-mockup.png
+    buttonText: Get started
+    buttonLink: "#"
+  section4:
+    title: Our Clients love us!
+    subtitle: Lorem ipsum sit dolor amet is a dummy text used by typography industry
+    clients:
+    - name: Irma Walters
+      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+      job: Accountant
+      img: 1
+    - name: John Bradley
+      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+      job: Financial Analyst
+      img: 2
+    - name: Gary Blackman
+      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+      job: HR Manager
+      img: 3
+  footer:
+    # Logo (from /images/logos/___)
+    logo: fresh-white-alt.svg
+    # Social media links (GitHub, Twitter, etc.). All are optional.
+    #socialmedia:
+    #- link: https://github.com/lucperkins/github-fresh
+    #  # Icons are from Font Awesome
+    #  icon: github
+    #- link: https://dribbble.com/#
+    #  icon: dribbble
+    #- link: https://facebook.com/#
+    #  icon: facebook
+    #- link: https://twitter.com/lucperkins
+    #  icon: twitter
+    #- link: https://bitbucket.org/#
+    #  icon: bitbucket
+    #bulmalogo: true
+    product:
+    - text: Mentions légales
+      link: /
+    #- text: Why choose our product?
+    #  link: /
+    #- text: Compare features
+    #  link: /
+    #- text: Our roadmap
+    #  link: /
+    #- text: Request features
+    #  link: /
+    #docs:
+    #- text: Get started
+    #  link: /
+    #- text: User guides
+    #  link: /
+    #- text: Admin guide
+    #  link: /
+    #- text: Developers
+    #  link: /
+    #blogroll:
+    #- text: Latest news
+    #  link: /
+    #- text: Tech articles
+    #  link: /
+    #- text: Video blog
+    #  link: /
