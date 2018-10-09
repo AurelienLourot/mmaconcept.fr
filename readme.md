@@ -1,5 +1,7 @@
 Draft of the next mmaconcept.fr
 
+Available at http://mmaconcept.ghuser.io
+
 Quickly hacked together using:
 
 * [hugo-fresh](https://themes.gohugo.io/hugo-fresh/)
